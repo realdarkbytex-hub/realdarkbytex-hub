@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="392" height="132" viewBox="0 0 392 132" role="img"><style>
+  * { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; }
+  .fade { opacity: 0; animation: fadeUp .7s ease forwards; }
+  @keyframes fadeUp { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+  .shine { animation: shine 4.5s ease-in-out infinite; }
+  @keyframes shine { 0%,100% { opacity: .0; } 50% { opacity: .55; } }
+  .blink { animation: blink 1.1s steps(1) infinite; }
+  @keyframes blink { 0%,55% { opacity: 1; } 56%,100% { opacity: 0; } }
+  .grow { transform-origin: bottom; transform-box: fill-box; animation: grow .8s cubic-bezier(.2,.9,.3,1.2) both; }
+  @keyframes grow { from { transform: scaleY(0); } to { transform: scaleY(1); } }
+  .pop { animation: pop .5s cubic-bezier(.2,.9,.3,1.4) both; }
+  @keyframes pop { from { opacity: 0; transform: scale(.6); } to { opacity: 1; transform: scale(1); } }
+  @media (prefers-reduced-motion: reduce) {
+    .fade, .shine, .blink, .grow, .pop { animation: none !important; opacity: 1 !important; transform: none !important; }
+  }
+</style><rect width="392" height="132" rx="14" fill="#17112E" stroke="#2A1E4D" stroke-width="1.5"/><circle cx="22" cy="26" r="5" fill="#3572A5"/><text x="34" y="31" font-size="15" font-weight="800" fill="#EDE9FE" class="fade">telegram-video-downloader-bot</text><text x="374" y="31" font-size="12" fill="#8B7CC7" text-anchor="end" class="fade" style="animation-delay:.2s">@videoo_waleagyebot ↗</text><text x="20" y="62" font-size="13.5" fill="#A99FC7" class="fade" style="animation-delay:0.30s">Paste a link, get the video back. YouTube,</text><text x="20" y="82" font-size="13.5" fill="#A99FC7" class="fade" style="animation-delay:0.45s">Instagram, Facebook + 1,700 sites.</text><text x="20" y="116" font-size="12.5" fill="#A99FC7" font-family="ui-monospace, 'SF Mono', 'Cascadia Code', Consolas, monospace" class="fade" style="animation-delay:.6s">Python · runs 24/7 · try it</text></svg>
